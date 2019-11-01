@@ -6,4 +6,4 @@ COPY . .
 
 RUN go build -o test
 
-CMD ["test"]
+CMD ["./test"]
